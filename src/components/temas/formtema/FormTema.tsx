@@ -1,8 +1,8 @@
-import { ChangeEvent, useContext, useEffect, useState } from "react";
+import { type ChangeEvent, useContext, useEffect, useState } from "react";
 import { RotatingLines } from "react-loader-spinner";
 import { useNavigate, useParams } from "react-router-dom";
 import { AuthContext } from "../../../contexts/AuthContext";
-import Tema from "../../../models/Tema";
+import type Tema from '../../../models/Tema';
 import { atualizar, buscar, cadastrar } from "../../../services/Service";
 
 function FormTema() {

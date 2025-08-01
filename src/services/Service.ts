@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: 'https://blogpessoal.onrender.com'
+    baseURL: 'https://blogpessoalbackendjs07.onrender.com/swagger'
 })
 
 export const cadastrarUsuario = async(url: string, dados: Object, setDados: Function) =>{
